@@ -4,8 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <form action="https://formspree.io/f/meqyvwpv" method="POST">
+
+        <header>
+          <h2>Formulario de ejemplo</h2>
+          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ducimus magnam porro, eveniet necessitatibus a provident quas, similique accusamus repudiandae ipsa praesentium rem iure inventore autem nemo obcaecati? Esse, eveniet!</div>
+        </header>
+        
+        <div>
+          <label class="desc" id="title1" for="Campo1">Nombre completo</label>
+          <div>
+            <input id="Campo1" name="Campo1" type="text" class="field text fn" value="" size="8" tabindex="1">
+          </div>
+        </div>
+          
+        <div>
+          <label class="desc" id="title3" for="Campo3">
+            Correo electrónico
+          </label>
+          <div>
+            <input id="Campo3" name="Campo3" type="email" spellcheck="false" value="" maxlength="255" tabindex="3"> 
+         </div>
+        </div>
+          
+        <div>
+          <label class="desc" id="title4" for="Campo4">
+            Mensaje
+          </label>
+        
+          <div>
+            <textarea id="Campo4" name="Campo4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+          </div>
+        </div>
+          
+        <div>
+          <fieldset>
+          
+            <legend id="title5" class="desc">
+              Selecciona una opción
+            </legend>
+            
+            <div>
+                <input id="radioDefault_5" name="Campo5" type="hidden" value="">
+                <div>
+                    <input id="Campo5_0" name="Campo5" type="radio" value="Primera Opción" tabindex="5" checked="checked">
+                    <label class="choice" for="Campo5_0">Primera Opción</label>
+                </div>
+              <div>
+                  <input id="Campo5_1" name="Campo5" type="radio" value="Segunda Opción" tabindex="6">
+                  <label class="choice" for="Campo5_1">Segunda Opción</label>
+              </div>
+              <div>
+                  <input id="Campo5_2" name="Campo5" type="radio" value="Tercera Opción" tabindex="7">
+                  <label class="choice" for="Campo5_2">Tercera Opción</label>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        
+        <div>
+          <fieldset>
+            <legend id="title6" class="desc">
+              Selecciona todas las que correspondan
+            </legend>
+            <div>
+            <div>
+                <input id="Campo6" name="Campo6" type="checkbox" value="Primera Opción" tabindex="8">
+                <label class="choice" for="Campo6">Primera Opción</label>
+            </div>
+            <div>
+                <input id="Campo7" name="Campo7" type="checkbox" value="Segunda Opción" tabindex="9">
+                <label class="choice" for="Campo7">Segunda Opción</label>
+            </div>
+            <div>
+                <input id="Campo8" name="Campo8" type="checkbox" value="Tercera Opción" tabindex="10">
+                <label class="choice" for="Campo8">Tercera Opción</label>
+            </span>
+            </div>
+          </fieldset>
+        </div>
+        
+        <div>
+          <label class="desc" id="title106" for="Campo106">
+              Selecciona una opción
+          </label>
+          <div>
+          <select id="Campo106" name="Campo106" class="field select medium" tabindex="11"> 
+            <option value="Primera Opción">Primera Opción</option>
+            <option value="Segunda Opción">Segunda Opción</option>
+            <option value="Tercera Opción">Tercera Opción</option>
+          </select>
+          </div>
+        </div>
+        
+        <div>
+              <div>
+                <input id="guardarFormulario" name="guardarFormulario" type="submit" value="Enviar">
+          </div>
+          </div>        
+      </form>
+</form>
 </body>
 </html>
