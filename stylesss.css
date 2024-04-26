@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://img.freepik.com/free-vector/gradient-grainy-texture_23-2148981502.jpg?w=1380&t=st=1714154198~exp=1714154798~hmac=bd75c043bc95363fabcfe8a641c9a1d3fa0462750a56d7fb89747047e1381320');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.navbar {
+  background-color: transparent !important;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.reservar-cita-button {
+  background-color: #bd5704;
+  color: black;
+}
+.reservar-cita-button:hover {
+  opacity: unset !important;
+}
